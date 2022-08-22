@@ -1,0 +1,23 @@
+.menu__item {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 50px;
+}
+
+.menu__item:last-of-type {
+  margin-right: 0;
+}
+
+.menu__item--active .menu__link {
+  color: #f5170e;
+}
+
+.menu__link {
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.menu__link:hover {
+  color: #f5170e;
+  transition: 0.4s;
+}

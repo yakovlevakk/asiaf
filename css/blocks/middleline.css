@@ -1,0 +1,23 @@
+.middleline {
+  height: 345px;
+  background: url("../../images/couple.png") right 25% bottom / auto no-repeat,
+    url("../../images/rectangle.png") center center / cover no-repeat, #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.middleline__content {
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.middleline__title {
+  max-width: 53%;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1.4;
+}

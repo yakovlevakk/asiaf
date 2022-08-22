@@ -1,0 +1,16 @@
+.header {
+  padding-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__col {
+  display: flex;
+  align-items: center;
+}
+
+.header-services {
+  margin-bottom: 30px;
+}

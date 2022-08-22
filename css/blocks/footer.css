@@ -1,0 +1,36 @@
+.footer-container {
+  margin-top: auto;
+  height: 127px;
+}
+
+.footer-container__content {
+  border-top: 1px solid #1a3038;
+  height: 100%;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.footer__col {
+  display: flex;
+  align-items: center;
+}
+
+.footer__col--align--right {
+  justify-content: flex-end;
+  display: flex;
+  align-items: center;
+}
+
+.footer-narrow {
+  margin-top: auto;
+  height: 137px;
+}
+
+.footer-narrow__container {
+  height: 100%;
+}

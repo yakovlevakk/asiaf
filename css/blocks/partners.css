@@ -1,0 +1,38 @@
+.partners-content {
+  background-color: #f4f5f5;
+  padding-bottom: 65px;
+}
+
+.partners {
+  padding-top: 83px;
+  padding-bottom: 5px;
+}
+
+.partners__header {
+  font-size: 48px;
+  font-weight: 700;
+  color: #202123;
+  margin-bottom: 64px;
+}
+
+.partners__all {
+  min-height: 254px;
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.partners__item {
+  flex-basis: 23%;
+  display: flex;
+  height: 100px;
+  align-items: center;
+}
+
+.partners__item:nth-child(4n) {
+  text-align: right;
+}
+
+.partners__link {
+  width: 100%;
+}
