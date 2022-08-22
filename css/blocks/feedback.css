@@ -34,7 +34,7 @@
 }
 
 .feedback__item:focus {
-  outline-color: #b9eae4;
+  outline-color: #F5170E;
 }
 
 .feedback__item::placeholder {
